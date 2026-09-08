@@ -49,6 +49,11 @@ jobs:
             --cov-report=xml \
             --cov-fail-under=80
 
+      - name: SonarQube Scan
+        uses: SonarSource/sonarqube-scan-action@v8.2.1
+        env:
+          SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
+
       # ------------------------------------------
       # AWS authentication
       # Only main pushes to ECR
