@@ -792,4 +792,6 @@ The goal of CloudOps Insight is to demonstrate how a simple Python application c
 
 > **Build once, test once, package once, and deploy the same Docker image across environments.**
 
+
+Register for the SonarQube Cloud.
 This README reflects the **current working architecture** without pretending that SonarQube, Trivy, OIDC, Prometheus, or Grafana are already implemented. Those are clearly marked as future enhancements.
