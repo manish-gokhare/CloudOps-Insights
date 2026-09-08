@@ -1,0 +1,11 @@
+service,environment,cost
+EC2,Production,400.50
+EC2,Development,120.25
+S3,Production,85.75
+S3,Development,32.40
+RDS,Production,310.80
+RDS,Development,95.60
+Lambda,Production,42.30
+Lambda,Development,18.20
+CloudFront,Production,65.40
+CloudFront,Development,30.10

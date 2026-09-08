@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    padding: 0;
+
+    font-family: Arial, sans-serif;
+
+    background-color: #f4f6f8;
+    color: #1f2937;
+}
+
+.container {
+    width: 90%;
+    max-width: 1100px;
+
+    margin: 40px auto;
+}
+
+header {
+    margin-bottom: 30px;
+}
+
+header h1 {
+    margin-bottom: 5px;
+}
+
+header p {
+    margin-top: 0;
+
+    color: #6b7280;
+}
+
+.summary-card {
+    background-color: white;
+
+    padding: 25px;
+
+    margin-bottom: 30px;
+
+    border-radius: 8px;
+
+    box-shadow: 0 2px 8px rgb(0 0 0 / 10%);
+}
+
+.summary-card h2 {
+    margin-top: 0;
+}
+
+.total-cost {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.chart-card {
+    background-color: white;
+
+    padding: 25px;
+
+    border-radius: 8px;
+
+    box-shadow: 0 2px 8px rgb(0 0 0 / 10%);
+}
+
+.chart-card h2 {
+    margin-top: 0;
+}
+
+.chart-card img {
+    display: block;
+
+    width: 100%;
+    max-width: 900px;
+
+    margin: 0 auto;
+}
